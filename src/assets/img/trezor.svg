@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 49" width="33" height="49">
+	<title>wallet_trezor 1</title>
+	<defs>
+		<image  width="33" height="49" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAxCAMAAABj7DDGAAAAAXNSR0IB2cksfwAAAEJQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjuH28gAAABZ0Uk5TABAwQH/f/8+fII/vcGCggJC/sMCvUGaJbpUAAAD8SURBVHic7ZTLkoQgDEWByCMCSnrs///VaQRbXpab7s3U3B03xyQlJIxV4gKAs0vxSaoobXAcn9WpeZAIpSoluzQNMEBa4IXUhabkWuO8WzK9VjWSF9JnGBJeJvG7Zd7n0CWh3Tl74zaeqSB24FEYy+6cZbBL6pqkifBdY+KWgC8QP4ZISyk10UYlAYFsdylZFF7QfBXNmvPvvBZ9kiDnARHjTXBEAc+VaqK8xkP0T/wJQt8SShpRhXGyzQuKkD/mlLvTbV4hec441BZ7qFpbMzzEoN9xpXScO1iuIBvek+u3QZye1b5Er+uwG+3tcFSz63j155aK4mOJ1vgFHMoafz/GvdQAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

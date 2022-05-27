@@ -1,0 +1,131 @@
+@import "~react-circular-progressbar/dist/styles.css";
+
+.proposals_details {
+  margin-top: 50px;
+  padding-bottom: 90px;
+  .proposals__title {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    h1 {
+      //   font-family: GT America;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      margin-bottom: 0;
+      margin-right: 10px;
+      line-height: 56px;
+      letter-spacing: -0.24px;
+      color: #1a1a1a;
+    }
+  }
+  .proposals__desc {
+    // font-family: GT America;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.32px;
+    color: #1a1a1a;
+    opacity: 0.8;
+    margin-top: 18px;
+  }
+  .alert_info {
+    margin-top: 60px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    padding: 40px;
+    // font-family: GT America;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.32px;
+    color: #000000;
+    opacity: 0.8;
+  }
+  .processbar_circle {
+    margin: 40px auto 0px auto;
+    width: 242px;
+    height: 242px;
+    position: relative;
+    span {
+      display: inline-block;
+      width: 100%;
+      // font-family: GT America;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 46px;
+      text-align: center;
+      letter-spacing: -0.24px;
+      color: #1a1a1a;
+      position: absolute;
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .description {
+    .head__ing {
+      // font-family: GT America;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 40px;
+      letter-spacing: -0.24px;
+      margin-bottom: 40px;
+      color: #1a1a1a;
+    }
+    // h6 {
+    //   // font-family: GT America;
+    //   font-style: normal;
+    //   font-weight: bold;
+    //   font-size: 48px;
+    //   line-height: 56px;
+    //   letter-spacing: -0.24px;
+    //   color: #000000;
+    //   margin-bottom: 18px;
+    // }
+    // p {
+    //   // font-family: GT America;
+    //   font-style: normal;
+    //   font-weight: normal;
+    //   font-size: 18px;
+    //   line-height: 21px;
+    //   letter-spacing: 0.32px;
+    //   color: #1a1a1a;
+    // }
+  }
+  .proposed__transactions {
+    // font-family: GT America;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -0.24px;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin: 40px 0;
+  }
+  .info__number {
+    // font-family: GT America;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: -0.24px;
+    color: #1a1a1a;
+  }
+  .info__details {
+    span {
+      color: #ffb703;
+    }
+  }
+}

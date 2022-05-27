@@ -1,0 +1,126 @@
+.proposals__create {
+  margin-top: 50px;
+  padding-bottom: 90px;
+  .create__proposal {
+    // font-family: GT America;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.24px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+  .proposals__desc {
+    // font-family: GT America;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.32px;
+    background: #f4f4f4;
+    color: #000000;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+  }
+  .add__transaction {
+    background: #f4f4f4;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    // font-family: GT America;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.32px;
+    font-weight: bold;
+    color: #000000;
+    padding: 22px;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .add__proposal__box {
+    border: 2px solid #aaaaaa;
+    padding: 20px 50px;
+    .md__editor__box {
+      padding: 25px 0 0 0;
+    }
+
+    label {
+      //   font-family: GT America;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 18px;
+      letter-spacing: -0.24px;
+    }
+    input {
+      width: 100%;
+      border: none;
+      outline: none;
+      padding: 15px 0;
+      // font-family: GT America;
+      font-style: normal;
+      font-weight: bold;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 18px;
+      letter-spacing: -0.24px;
+      color: #1a1a1a;
+      border-bottom: 2px solid #aaaaaa;
+    }
+    textarea {
+      padding: 0;
+      border: none;
+      width: 100%;
+      min-height: 500px;
+      outline: none;
+      //   font-family: GT America;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 22px;
+      letter-spacing: -0.24px;
+      color: #1a1a1a;
+    }
+  }
+  .add__dao {
+    background: #000000;
+    padding: 20px;
+    // font-family: GT America;
+    font-style: normal;
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #ffffff;
+  }
+  .alert__box {
+    background: #ffb703;
+    padding: 25px;
+    // font-family: GT America;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-align: center;
+    margin-top: 40px;
+    color: #ffffff;
+  }
+}
+
+.connect-wallet-msg {
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 700;
+}

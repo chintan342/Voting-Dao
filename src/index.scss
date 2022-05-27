@@ -1,0 +1,51 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+h1, h2, h3, h4, h5, p, a, ul, li {
+  font-family: 'Poppins';
+}
+
+.go__back__link {
+  display: flex;
+  text-decoration-line: none;
+  align-items: center;
+  span {
+    margin-left: 10px;
+    // font-family: GT America;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: -0.24px;
+    text-decoration-line: none;
+    color: #1a1a1a;
+    border-bottom: 4px solid #1a1a1a;
+  }
+}
+.status {
+  margin-left: auto;
+  padding: 12px 24px;
+  // font-family: GT America;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+  &.created {
+    background: #707070;
+  }
+  &.active {
+    background: #ffb703;
+  }
+  &.succeded {
+    background: rgb(25, 135, 84);
+  }
+  &.defeated {
+    background: #dc3545;
+  }
+  &.completed {
+    background: #198754;
+  }
+}

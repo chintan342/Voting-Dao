@@ -1,0 +1,8 @@
+{
+  "short_name": "Voting DAO",
+  "name": "Voting DAO",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#023047",
+  "background_color": "#ffffff"
+}

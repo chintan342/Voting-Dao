@@ -1,0 +1,119 @@
+.connect__wallet_btn {
+  font-family: 'Poppins';
+  border: 1px solid #000000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  padding: 12px 24px;
+  color: #000000;
+  background-color: #FFB703;
+  @media only screen and (max-width: 720px) {
+    margin: 0 20px;
+  }
+}
+.navbar {
+  &.navbar__custom {
+    padding: 8px 0;
+  }
+  background-color: #023047;
+  padding: 8px 0px; 
+}
+.navbar-light .navbar-nav .nav-link {
+  &.nav__link_custom {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.005em;
+    // color: #000000;
+    color: white;
+    @media only screen and (max-width: 720px) {
+      padding: 10px 20px;
+    }
+  }
+  color: white;
+}
+.wallet__model {
+  .modal-lg {
+    max-width: 900px;
+  }
+  .close__btn {
+    border: none;
+    background: transparent;
+    svg {
+      width: 35px;
+    }
+  }
+  h3 {
+    // font-family: GT America;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -0.24px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 37px;
+  }
+  .wallet__btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    button {
+      margin: 8px;
+      background: #e3e3e3;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      border: none;
+      span {
+        margin-left: 15px;
+        // font-family: GT America;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.24px;
+        color: #1a1a1a;
+      }
+    }
+  }
+  .advanced__options {
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    button {
+      display: flex;
+      margin: 0 auto;
+      align-items: center;
+      background: transparent;
+      border: none;
+      span {
+        margin-right: 5px;
+      }
+      svg {
+        transform: rotate(180deg);
+      }
+      &.show__advaced {
+        svg {
+          transform: rotate(0deg);
+        }
+      }
+    }
+    .clear__wallet__btn {
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+      display: inline-block;
+    }
+  }
+}
+.navbar-brand {
+  color: #FFFFFF !important;
+  @media only screen and (max-width: 720px) {
+    margin: 0 20px;
+    color: #FFFFFF !important;
+  }
+}
